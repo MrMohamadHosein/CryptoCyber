@@ -162,11 +162,7 @@ class MarketActivity : AppCompatActivity(), MarketAdapter.RecyclerCallback {
         if (isFirstRun) {
 
             val dialog = AlertDialog.Builder(this)
-            dialog.setMessage("این برنامه یکی از پروژه های داخل دوره یاقوت اندروید وبسایت دانیجت است که در قالب ۱۰ ساعت دوره آموزشی ضبط شده و آماده استفاده است :)" +
-                    "\n\n دوره یاقوت اندروید شامل ۴۰ فصل کامل به زبان کاتلین است که کاملا پروژه محور بوده و این پروژه فقط پروژه یکی از فصول این دوره است" +
-                    "\n\n در پایان دوره یک پروژه فروشگاهی کامل به همراه درگاه پرداخت هم به زبان کاتلین توسعه داده شده است" +
-                    "\n\n در صورت علاقه به حرفه ای شدن در زمینه اندروید به لینک زیر سر بزنید : " +
-                    "\n https://dunijet.ir/product/yaghot-android/")
+            dialog.setMessage("@Kazemi_m.h")
             dialog.show()
 
             shared.edit().putBoolean("isFirstRun" , false).apply()
